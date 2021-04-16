@@ -26,6 +26,25 @@
     -->
     <title>React App</title>
     <style>
+      ::-webkit-scrollbar{
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb{
+        background: linear-gradient(transparent, rgb(199, 103, 14));
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-track{
+        background: black;
+      }
+
+      ::-webkit-scrollbar-thumb:hover{
+        background: linear-gradient(transparent, rgb(199, 42, 14));
+        border-radius: 5px;
+      }
+      
+
       #myVideo {
         position: fixed;
         z-index: -1;
@@ -46,6 +65,7 @@
           height: 100%;
         }
       }
+      
     </style>
   </head>
   <body>
