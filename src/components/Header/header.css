@@ -226,7 +226,7 @@
 }
   
 
-@media only screen and (max-width: 328px){
+@media only screen and (max-width: 468px){
     .welcome-head{
         font-size: 1em;
     }
@@ -244,6 +244,7 @@
     .my-name{
         display: block;
         width: 90%;
+        text-align: center;
         margin: 5vh auto;
         font-size: 5vh;
     }
