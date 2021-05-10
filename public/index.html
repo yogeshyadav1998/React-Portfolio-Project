@@ -44,35 +44,10 @@
         border-radius: 5px;
       }
       
-
-      #myVideo {
-        position: fixed;
-        z-index: -1;
-        top: 0;
-        right: 0;
-      }
-
-      @media (min-aspect-ratio: 16/9){
-        #myVideo {
-          width: 100%;
-          height: auto;
-        }
-      }
-
-      @media (max-aspect-ratio: 16/9){
-        #myVideo {
-          width: auto;
-          height: 100%;
-        }
-      }
-      
     </style>
   </head>
   <body>
     <div id="root"></div>
-    <video id="myVideo" poster="background.png" autoplay muted loop >
-      <source src="background-clip.mp4" type="video/mp4">
-    </video>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

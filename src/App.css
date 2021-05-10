@@ -1,0 +1,8 @@
+.App{
+    background: url('./images/background.png');
+}
+
+.tsparticles-canvas-el{
+    position: fixed;
+    height: auto;
+}
