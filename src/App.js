@@ -1,40 +1,30 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Particles from 'react-particles-js';
-import Navbar from  './components/Navbar/navbar';
-import Header from './components/Header/header';
-import About from './components/About/about';
-import Projects from './components/Projects/projects';
-import Contacts from './components/Contact/contact';
+import React, { useEffect } from "react";
+import Particles from "./components/layouts/Particles";
+import Header from "./components/section/Header";
+import About from "./components/section/About";
+import Works from "./components/section/Works";
+import Contact from "./components/section/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { animation } from "./profile";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: animation.duration,
+      once: animation.once,
+      disable: !animation.animate,
+    });
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className="App">
-      <Particles
-        params={{
-          particles:{
-            number:{
-              value:25,
-              density:{
-                enable:true,
-                value_area: 1000
-              }
-            },
-            shape:{
-              type: "circle",
-              stroke:{
-                width: 6,
-                color: "rgba(133, 41, 34, 0.911)"
-              }
-            }
-          }
-        }}
-      />
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Projects/>
-      <Contacts/>
+      <Header />
+      <Particles />
+      <About />
+      <Works />
+      <Contact />
     </div>
   );
 }
