@@ -23,8 +23,11 @@ function App() {
       <Header />
       <Particles />
       <About />
+      <Particles />
       <Works />
+      <Particles />
       <Contact />
+      <Particles />
     </div>
   );
 }

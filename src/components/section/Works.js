@@ -1,4 +1,5 @@
 import React from 'react'
+import Particles from "../layouts/Particles";
 import Project from '../layouts/Project'
 import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
 
@@ -17,7 +18,7 @@ const Works = () => {
                 )}
                 </div>
             </div>
-
+            <Particles/>
             <div className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">
