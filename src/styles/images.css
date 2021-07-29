@@ -1,43 +1,31 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('../images/skills.png');
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+    background-image: url('https://i0.wp.com/digitalspheretech.com/wp-content/uploads/2019/07/YExCzFf.jpg?resize=638%2C304&ssl=1');
     cursor: none;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
+    background-image: url('https://wallpaperaccess.com/full/2265682.jpg');
     cursor: none;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
-    cursor: none;
-}
-.project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
-    cursor: none;
-}
-.project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
-    cursor: none;
-}
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    background-image: url('https://cache.desktopnexus.com/thumbseg/1662/1662155-bigthumbnail.jpg');
     cursor: none;
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
+    background-image: url('https://cdn.wallpapersafari.com/72/31/6Mtu7x.jpg');
     cursor: none;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
+    background-image: url('https://t4.ftcdn.net/jpg/03/10/40/41/360_F_310404162_SoQ3pGc5ctHO3B40f3YM2tnwWrV4XFlq.jpg');
     cursor: none;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    background-image: url('https://img.wallpapersafari.com/desktop/800/450/40/83/gPshmX.png');
     cursor: none;
 }

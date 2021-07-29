@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "My name is Yogesh Yadav. I am an IT Engineer based in New Delhi, India. I delineate myself as a problem solver and passionate developer who loves open source and UX Designing.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -46,16 +46,16 @@ const skillsBar = [
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
-    faClass: "fab fa-python",
+    name: "C++",
+    faClass: "fas fa-code",
   },
   {
     name: "Java",
     faClass: "fab fa-java",
   },
   {
-    name: "PHP",
-    faClass: "fab fa-php",
+    name: "Figma",
+    faClass: "fab fa-figma",
   },
   {
     name: "Database",
@@ -74,45 +74,24 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Report Analyzer",
+    skills: ["React, ML, BlockChain"],
+    url: "https://github.com/yogeshyadav1998/Btech-Project-Ml-Blockchain-Web",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Grain Market",
+    skills: ["React, Redux"],
+    url: "https://github.com/yogeshyadav1998/React-Farmington",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+    name: "Scroll Animator",
+    skills: ["React, Next, Spring"],
+    url: "https://github.com/yogeshyadav1998/React-scroll-animation",
+  }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
@@ -122,20 +101,20 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "Blood Help India",
+    url: "https://github.com/yogeshyadav1998/React-Bloodhelpindia",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "Sukhoi Mikoyan",
+    url: "https://github.com/yogeshyadav1998",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "Portfolio",
+    url: "https://github.com/yogeshyadav1998/React-Portfolio-Project",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
@@ -144,18 +123,18 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "It is good to stock and Learn from better.",
+  copyright: "Yogesh Yadav",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  instagram: "https://instagram.com",
-  resume: "https://novoresume.com/",
+  github: "https://github.com/yogeshyadav1998",
+  facebook: "https://www.facebook.com/profile.php?id=100005275305951",
+  linkedin: "https://www.linkedin.com/in/yogesh-yadav-10514b171",
+  instagram: "https://www.instagram.com/_.yogesh.ydv._/",
+  resume: "https://drive.google.com/file/d/1dTvpqoN8pr2v5RyiCBR7v_JqMGAjE0Fm/view?usp=sharing",
 };
 // Dont change anything here
 export {

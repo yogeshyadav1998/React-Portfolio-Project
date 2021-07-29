@@ -53,12 +53,12 @@ button:focus{outline:1px solid #777!important}
 .nav-link{color:#000!important}
 .is-current{color:var(--primary-color);text-decoration:underline;text-decoration-style:solid 3px;text-decoration-color:var(--primary-color)}
 .Copy{color:#fff!important;font-weight:500;padding-top:2%}
-.project-name{text-decoration:none}.gtp{position:fixed;left:92%;height:150px;top:82%;z-index:1002;cursor:crosshair}
-.see{background-color:var(--primary-color);color:#fff;border:#000;outline:#000;position:absolute;padding:5px 15px;padding-bottom:7px;border-radius:3px;left:44%;top:90%}
+.project-name{text-decoration:none; text-align: center;}.gtp{position:fixed;left:92%;height:150px;top:82%;z-index:1002;cursor:crosshair}
+.see{background-color:var(--primary-color);color:#fff;border:#000;outline:#000;position:absolute;padding:5px 15px;padding-bottom:7px;border-radius:3px;left:44%;top:90%; transition: 0.2s}
 .fa-eye{color:#fff;font-size:20px;padding-top:7px;padding-bottom:7px;padding-left:15px;padding-right:7px}
 .see:active{outline:0}
-.see:hover{background-color:var(--hover-color)}
-.switch{position:relative;display:inline-block;width:60px;height:34px;left:44.5%;bottom:46%}
+.see:hover{background-color: rgb(121, 80, 10) !important;box-shadow: 0 0 10px rgb(121, 80, 10),0 0 40px rgb(121, 80, 10),0 0 80px rgb(121, 80, 10);}
+.switch{position:relative;display:none;width:60px;height:34px;left:44.5%;bottom:46%}
 .Header p{margin-top:40px}
 .switch input{opacity:0;width:0;height:0}
 .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:var(--primary-color);-webkit-transition:.4s;transition:.4s}
@@ -70,7 +70,7 @@ input:checked+.slider:before{-webkit-transform:translateX(26px);-ms-transform:tr
 .slider.round:before{border-radius:50%}
 .line-1{position:relative;top:10%;width:20em;margin:0 auto;border-right:2px solid rgba(25,25,25,.75);font-size:180%;text-align:center;white-space:nowrap;overflow:hidden;transform:translateY(-50%);font-family:"Anonymous Pro",monospace!important}
 .anim-typewriter{animation:typewriter 4s steps(25) 1s 1 normal both,blinkTextCursor .5s steps(25) infinite normal}
-.parallax{background-image:url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)}
+.parallax{background-image:url(https://newevolutiondesigns.com/images/freebies/orange-wallpaper-24.jpg)}
 @keyframes typewriter{from{width:0}to{width:15em}}
 @keyframes blinkTextCursor{from{border-right-color:rgba(25,25,25,.75)}to{border-right-color:transparent}}
 ::-moz-selection{color:#fff;background:var(--primary-color)}
