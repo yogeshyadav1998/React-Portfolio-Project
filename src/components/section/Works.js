@@ -18,7 +18,7 @@ const Works = () => {
                 )}
                 </div>
             </div>
-            {/* <Particles/> */}
+            <Particles/>
             <div className="third">
                 <>
                     <div className="pp-head-line mx-auto text-center">

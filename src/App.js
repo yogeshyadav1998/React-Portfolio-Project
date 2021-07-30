@@ -23,11 +23,11 @@ function App() {
       <Header />
       <Particles />
       <About />
-      {/* <Particles /> */}
+      <Particles />
       <Works />
-      {/* <Particles /> */}
+      <Particles />
       <Contact />
-      {/* <Particles /> */}
+      <Particles />
     </div>
   );
 }
