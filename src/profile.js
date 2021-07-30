@@ -113,8 +113,8 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Portfolio",
-    url: "https://github.com/yogeshyadav1998/React-Portfolio-Project",
+    name: "Covid Traker",
+    url: "https://github.com/yogeshyadav1998/Covid19-Application",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
