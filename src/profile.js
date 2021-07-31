@@ -113,7 +113,7 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Covid Traker",
+    name: "Covid Tracker",
     url: "https://github.com/yogeshyadav1998/Covid19-Application",
   },
 ];
